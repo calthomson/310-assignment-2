@@ -87,7 +87,7 @@ public class GitLab implements EntryPoint {
 		
 		for(int i=0; i < users.size(); i++)
 		{
-		
+      //Comment
 			IUser user = users.get(i);
 			
 			flexTable.setText(i+1,0,user.getName());
