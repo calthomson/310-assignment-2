@@ -115,7 +115,7 @@ public class GitLab implements EntryPoint {
 .mmm..m.......mm..mmmm........mmmm.........................................mmmmm.......mm. .m...mm
 .mm....m......mm...........mmmm................mmmmmmmm................mmmmm...mmmmmm..mm. .m...mm
 .mmmm...mm..mmmm..........mmmmm....................mm..............mmmmmm.....mmm.mmm.mmm. .m..mmm
-..mm.mm.....mmmm.......mm..mmmmm.........mmmmmmm...mm..........mmmmmmm........mm......mm.. ....mmm
+..mm.mm.....mmmm.......mm..mmmmmMERGE CONFLICTmmmmmmm...mm..........mmmmmmm........mm......mm.. ....mmm
 ..mmm....m..mm.mmm...m........mmm..............m.mmm......mmmmmmmm.mm.......mmmm.....mm... m..mmm.
 ...mmm.....mmmmmmmmm............mmmmmm...............mmmmmmmm......mm....mmmmmm.........mm ..mm...
 ....mmm....mm.mm.mmmmmm...........mmm...........mmmmmmmm..........mmm.mmmmmmmm.......m.... .mmm...
@@ -144,7 +144,6 @@ public class GitLab implements EntryPoint {
 ....mmmmm...................mmmmmmmmm.............. 
 .......mmmmmmmmmmmmmmmmmmmmmmmm.................... */
 
->>>>>>> 4cdc82788e24bffbe6e6a1c14ae48c6bd1644a38
 			IUser user = users.get(i);
 			
 			flexTable.setText(i+1,0,user.getName());
