@@ -89,7 +89,7 @@ public class GitLab implements EntryPoint {
 		
 		for(int i=0; i < users.size(); i++)
 		{
-			//THIS IS TOTALLY WRONG, BECAUSE I SAID SO
+		
 		/*
 		.......................................................................................... .........
 .......................................................................................... .........
@@ -134,6 +134,7 @@ public class GitLab implements EntryPoint {
 ....mmmmm...................mmmmmmmmm.............. 
 .......mmmmmmmmmmmmmmmmmmmmmmmm.................... */
 
+//<<<<<<< HEAD 
 
 // what a gross face
 
@@ -170,6 +171,10 @@ public class GitLab implements EntryPoint {
 ( ͡° ͜ʖ ͡°)
 ( ͡° ͜ʖ ͡°)
 */
+/*
+=======
+>>>>>>> 4cdc82788e24bffbe6e6a1c14ae48c6bd1644a38
+>>>>>>> c67ba898989a5e6587685baf9ac383db6ec95476*/
 			IUser user = users.get(i);
 			
 			flexTable.setText(i+1,0,user.getName());
