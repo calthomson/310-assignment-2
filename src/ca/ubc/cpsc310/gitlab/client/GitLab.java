@@ -87,6 +87,7 @@ public class GitLab implements EntryPoint {
 		
 		for(int i=0; i < users.size(); i++)
 		{
+			//THIS IS TOTALLY WRONG, BECAUSE I SAID SO
 		
 			IUser user = users.get(i);
 			
