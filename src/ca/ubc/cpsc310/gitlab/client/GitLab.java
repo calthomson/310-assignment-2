@@ -143,6 +143,9 @@ public class GitLab implements EntryPoint {
 ...mmmm............................mmmmmmmmmm........ 
 ....mmmmm...................mmmmmmmmm.............. 
 .......mmmmmmmmmmmmmmmmmmmmmmmm.................... */
+
+
+// what a gross face
 			IUser user = users.get(i);
 			
 			flexTable.setText(i+1,0,user.getName());
